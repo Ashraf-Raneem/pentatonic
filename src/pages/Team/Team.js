@@ -26,7 +26,7 @@ const Team = () => {
             </p>
           </div>
           <div className={styles.team_projects}>
-            <div className={styles.team_projects_header}>
+            <div className={styles.team_section_header}>
               <p>PROJECTS</p>
             </div>
             <div className={styles.team_projects_container}>
@@ -92,7 +92,7 @@ const Team = () => {
             </div>
           </div>
           <div className={styles.team_projects}>
-            <div className={styles.team_projects_header}>
+            <div className={styles.team_section_header}>
               <p>TEAM</p>
             </div>
             <div className={styles.team_members_container}>
