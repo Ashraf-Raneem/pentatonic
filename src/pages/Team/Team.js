@@ -151,6 +151,64 @@ const Team = () => {
                 </div>
               </div>
             </div>
+            <div className={styles.team_members_container_sm}>
+              <div className={styles.team_members_col}>
+                <div className={styles.team_members_img}>
+                  <img src={Image1} alt="" />
+                </div>
+                <div className={styles.team_members_details}>
+                  <h5>Lorem Ipsum</h5>
+                  <span>
+                    {" "}
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lacinia eleifend sodales. Sed
+                    imperdiet auctor malesuada. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+                    lacinia eleifend sodales.
+                  </span>
+                </div>
+              </div>
+              <div className={styles.team_members_col}>
+                <div className={styles.team_members_img}>
+                  <img src={Image2} alt="" />
+                </div>
+                <div className={styles.team_members_details}>
+                  <h5>Lorem Ipsum</h5>
+                  <span>
+                    {" "}
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lacinia eleifend sodales. Sed
+                    imperdiet auctor malesuada. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+                    lacinia eleifend sodales.
+                  </span>
+                </div>
+              </div>
+              <div className={styles.team_members_col}>
+                <div className={styles.team_members_img}>
+                  <img src={Image3} alt="" />
+                </div>
+                <div className={styles.team_members_details}>
+                  <h5>Lorem Ipsum</h5>
+                  <span>
+                    {" "}
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lacinia eleifend sodales. Sed
+                    imperdiet auctor malesuada. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+                    lacinia eleifend sodales.
+                  </span>
+                </div>
+              </div>
+              <div className={styles.team_members_col}>
+                <div className={styles.team_members_img}>
+                  <img src={Image4} alt="" />
+                </div>
+                <div className={styles.team_members_details}>
+                  <h5>Lorem Ipsum</h5>
+                  <span>
+                    {" "}
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lacinia eleifend sodales. Sed
+                    imperdiet auctor malesuada. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+                    lacinia eleifend sodales.
+                  </span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

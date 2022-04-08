@@ -80,6 +80,10 @@
     flex-direction: row;
     margin-top: 2rem;
 }
+.team_members_container_sm{
+    display: none;
+}
+
 .team_members_details:last-child {
     padding-top: 20px;
 }
@@ -108,4 +112,51 @@
     justify-content: center;
     align-items: center;
     background: #ffffff;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .team {
+        padding-top: 100px;
+    }
+    .team_members_container {
+        display: none;
+    }
+    .team_members_container_sm {
+        display: flex;
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+    .team_members_col{
+        display: flex;
+        flex-direction: row;
+    }
+    .team_members_details:last-child {
+        padding-top: 0px;
+    }
+    .team_container{
+        padding: 0px 12px;
+    }
+    .team_members_details{
+        margin-top: 0px;
+    }
+    .team_members_img > img{
+        height: 120px;
+        width: 120px;
+    }
+    .team_projects_container{
+        background: white;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        margin-bottom: 3rem;
+    }
+    .team_projects_text, .team_projects_img{
+        width: 100%;
+    }
+    .team_projects_img > img {
+        height: auto;
+        width: 100%;
+    }
 }
