@@ -1,6 +1,5 @@
 import { useState } from "react";
-import Link from "next/link";
-import Image from "next/image";
+import {Link} from "react-router-dom";
 import twitter from "../../../assets/twitter.png";
 import discord from "../../../assets/discord.png";
 import koji from "../../../assets/koji.png";
@@ -26,7 +25,7 @@ const Header = () => {
           </div>
           <ul>
             <li>
-              <Link href="/collection">COLLECTION</Link>
+              <Link to="/collection">COLLECTION</Link>
             </li>
             <li>TEAM</li>
             <li>FAQs</li>
@@ -35,16 +34,16 @@ const Header = () => {
         </div>
         <ul className={styles.header_right}>
           <li>
-            <Image src={twitter} alt="Twitter" />
+            <img src={twitter} alt="Twitter" />
           </li>
           <li>
-            <Image src={discord} alt="Discord" />
+            <img src={discord} alt="Discord" />
           </li>
           <li>
-            <Image src={koji} alt="Koji" />
+            <img src={koji} alt="Koji" />
           </li>
           <li>
-            <Image src={wallet} alt="Wallet" />
+            <img src={wallet} alt="Wallet" />
           </li>
         </ul>
       </div>
@@ -64,7 +63,7 @@ const Header = () => {
         >
           <ul className={styles.side_nav_top}>
             <li>
-              <Link href="/collection">COLLECTION</Link>
+              <Link to="/collection">COLLECTION</Link>
             </li>
             <li>TEAM</li>
             <li>FAQs</li>
@@ -72,21 +71,21 @@ const Header = () => {
           </ul>
           <ul className={styles.side_nav_bottom}>
             <li>
-              <Image src={twitter} alt="Twitter" />
+              <img src={twitter} alt="Twitter" />
             </li>
             <li>
-              <Image src={discord} alt="Discord" />
+              <img src={discord} alt="Discord" />
             </li>
             <li>
-              <Image src={koji} alt="Koji" />
+              <img src={koji} alt="Koji" />
             </li>
             <li>
-              <Image src={wallet} alt="Wallet" />
+              <img src={wallet} alt="Wallet" />
             </li>
           </ul>
         </div>
         <div className={styles.menu_btn}>
-          <Image
+          <img
             src={menu}
             alt="Menu Icon"
             onClick={() => setOpenHeader(!openHeader)}
